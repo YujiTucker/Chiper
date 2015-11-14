@@ -18,12 +18,14 @@ void Vigenere::showVigenereSqure() {
 
 void Vigenere::encipher() {
 	char str[32];
-	for(int i=0; i<strlen(plainText); i++)
+	for(int i=0; i<plainText.str().length(); i++)
 		cout << i << endl;
-	BOOST_FOREACH( const map_type::value_type x, alphnum)
+/*
+	BOOST_FOREACH( const map_type::value_type x, )
   {
     cout << boost::format("%1%: %2%\n") % x.first % x.second;
   }
+*/
 }
 
 void Vigenere::decipher() {
