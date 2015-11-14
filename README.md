@@ -1,4 +1,9 @@
 # Chiper
 This repository is programm of Chiper.
-The code is C++ and you need to install Boost.
+This programm is not work now.
+Chiper programm is written by C++.
+
+It is going to be implemented with some chiper.
+First implemention of method is Vigenere.
+
 
